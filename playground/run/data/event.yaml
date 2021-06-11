@@ -21,8 +21,8 @@ log:
     version: 1
 module_engine:
     modules:
-      - module: modules.example
-      - module: modules.enable_all
+      - module: project.modules.example
+      - module: project.modules.enable_all
 monitor:
     component_address: tcp+sbs://127.0.0.1:23012
     group: event
