@@ -30,7 +30,7 @@ views:
   - name: main
     view_path: ../../build/views/main
     conf_path: null
-address: http://127.0.0.1:23023
+address: http://0.0.0.0:23023
 initial_view: login
 users:
   - name: user
