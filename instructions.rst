@@ -63,7 +63,7 @@ This repository was meant to be used in the following way:
 #. Write implementations of
    `devices <https://hat-gateway.hat-open.com/gateway.html>`_,
    `modules <https://hat-event.hat-open.com/event.html>`_,
-   and `adapters <https://hat-gui.hat-open.com/>`_ in the ``src_py/project``
+   and `adapters <https://hat-gui.hat-open.com/gui.html>`_ in the ``src_py/project``
    directory
 #. Run the system from different subdirectories of the ``playground``
    directory.
