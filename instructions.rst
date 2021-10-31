@@ -61,9 +61,9 @@ This repository was meant to be used in the following way:
 #. Rename any references from the generic project to the actual project name
    (e.g. ``src_py/project`` -> ``src_py_<your_actual_project_name>``)
 #. Write implementations of
-   `devices <https://hat-gateway.hat-open.com/gateway.html>`,
-   `modules <https://hat-event.hat-open.com/event.html>`,
-   and `adapters <https://hat-gui.hat-open.com/>` in the ``src_py/project``
+   `devices <https://hat-gateway.hat-open.com/gateway.html>`_,
+   `modules <https://hat-event.hat-open.com/event.html>`_,
+   and `adapters <https://hat-gui.hat-open.com/>`_ in the ``src_py/project``
    directory
 #. Run the system from different subdirectories of the ``playground``
    directory.
