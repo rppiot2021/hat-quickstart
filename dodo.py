@@ -40,8 +40,7 @@ def task_js_deps():
                        stdout=subprocess.DEVNULL,
                        stderr=subprocess.DEVNULL)
 
-    return {'actions': ['yarn install --silent',
-                        patch]}
+    return {'actions': ['yarn install --silent']}
 
 
 def task_js_view():
