@@ -7,31 +7,31 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.3.tgz#90420f9f9c6d3987f176a19a7d8e764271a2f55d"
   integrity sha512-Fxt+AfXgjMoin2maPIYzFZnQjAXjAL0PHscM5pRTtatFqB+vZxAM9tLp2Optnuw3QOQC40jTNeGYFOMvyf7v9g==
 
-"@hat-core/future@^0.4.0-dev20200812":
-  version "0.4.0-dev20200812"
-  resolved "https://registry.yarnpkg.com/@hat-core/future/-/future-0.4.0-dev20200812.tgz#e7f3974e5d7e38ea0102147a193500f149e229c4"
-  integrity sha512-8a9oKd829GYjl420FHK7PN13j6z9Bw8YVYEYqQZNiiZNkV1Kjo9zfYUz8vBKK6bR25B6r/han8lkbp3QPxPq6A==
+"@hat-core/future@^0.4.1-dev20210707":
+  version "0.4.1-dev20210707"
+  resolved "https://registry.yarnpkg.com/@hat-core/future/-/future-0.4.1-dev20210707.tgz#80c25c3b4d6b04de8a18e82aad7381300d3d3a5f"
+  integrity sha512-UiSq1B6Tdudr8h00lZiX2Fp4YHKK/O68Dw/u3vaK6um+BIxf1WWbS5rcB2zfOSdoSIHwCBPbZfQeVyxwBV5g6A==
 
-"@hat-core/juggler@^0.4.0-dev20200812":
-  version "0.4.0-dev20200812"
-  resolved "https://registry.yarnpkg.com/@hat-core/juggler/-/juggler-0.4.0-dev20200812.tgz#ea02dd8e2599fd4296be1c53d191a1252e4fabb9"
-  integrity sha512-y8v3I53FTiU3Tg4m+9LfSnneDcN7rimPsxSyXFK38gbVAFUu+2lTBw2D+mtsMoZo3GqsoR3a/qB95Az0sL3nHA==
+"@hat-core/juggler@^0.4.1-dev20210707":
+  version "0.4.1-dev20210707"
+  resolved "https://registry.yarnpkg.com/@hat-core/juggler/-/juggler-0.4.1-dev20210707.tgz#822074eea4d20ddd9e667b7d964039057a39eaea"
+  integrity sha512-eSDCdKqcO+nqnxhJgVf3yAJK11WmoUlgo3HFcsnhzmsqo9VwLMZ7+xcs0Yhi+0mrfbIwfS40D1r4TEpMZbTjVQ==
   dependencies:
-    "@hat-core/util" "~0.4.0-dev20200812"
+    "@hat-core/util" "~0.4.1-dev20210707"
     jiff "*"
 
-"@hat-core/renderer@^0.4.0-dev20200812":
-  version "0.4.0-dev20200812"
-  resolved "https://registry.yarnpkg.com/@hat-core/renderer/-/renderer-0.4.0-dev20200812.tgz#58f77fefe93ab3df6d1aaf19f26029832d84bc52"
-  integrity sha512-jGVgpD1jRv3Pqj2tr6bp8KHQWdcnCcWb5h++hKae+zZtqPruHg5CLtUsogFKZOvkB4sGiuLOxOFBR37onRbxDw==
+"@hat-core/renderer@^0.4.1-dev20210707":
+  version "0.4.1-dev20210707"
+  resolved "https://registry.yarnpkg.com/@hat-core/renderer/-/renderer-0.4.1-dev20210707.tgz#452e012f79208ab8c1f1c46a7fcc692868f43d9c"
+  integrity sha512-d6SCD6PHpLoZ4xjFX5aFvcwsE97Huo+vZ9O30czGPx26ZXGxJ6skd0wtqe7pfbJXPn/4CDRcKlxHPD9sye7zlg==
   dependencies:
-    "@hat-core/util" "~0.4.0-dev20200812"
+    "@hat-core/util" "~0.4.1-dev20210707"
     snabbdom "*"
 
-"@hat-core/util@~0.4.0-dev20200812":
-  version "0.4.0-dev20200812"
-  resolved "https://registry.yarnpkg.com/@hat-core/util/-/util-0.4.0-dev20200812.tgz#ffb4ab22959d9cb69316ab08705d9586fb8adc6e"
-  integrity sha512-EDDa2P3H9A4oOFfj5PmZK3MAs6QWaMTvG3u4QzeM18MSEmYdrNPFBHKcPhU/JiLJTAK6SsNFSEmprf+pBA4H9g==
+"@hat-core/util@~0.4.1-dev20210707":
+  version "0.4.1-dev20210707"
+  resolved "https://registry.yarnpkg.com/@hat-core/util/-/util-0.4.1-dev20210707.tgz#5e134d39855b9dff0dd171710da945a42e2c0197"
+  integrity sha512-WjqHvCS2B0n/fnBrBtRuz4OJiI5dGq5SxEbHlib0jllV8nwto3QJxFa2ssVIUP7DhNn4E0F6n8gQvwr9XAIS0w==
 
 "@types/eslint-scope@^3.7.0":
   version "3.7.0"

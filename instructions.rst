@@ -68,6 +68,8 @@ This repository was meant to be used in the following way:
 #. Write implementations of various
    `views <https://hat-gui.hat-open.com/gui.html#views>`_ in the
    ``src_js/views`` directory
+#. Use the build tools to build the user interfaces (``doit js_view``) or any
+   other neccessary resources
 #. Run the system from different subdirectories of the ``playground``
    directory.
     - This directory also contains configurations to various hat components
