@@ -63,8 +63,11 @@ This repository was meant to be used in the following way:
 #. Write implementations of
    `devices <https://hat-gateway.hat-open.com/gateway.html>`_,
    `modules <https://hat-event.hat-open.com/event.html>`_,
-   and `adapters <https://hat-gui.hat-open.com/gui.html>`_ in the ``src_py/project``
-   directory
+   and `adapters <https://hat-gui.hat-open.com/gui.html>`_ in the
+   ``src_py/project`` directory
+#. Write implementations of various
+   `views <https://hat-gui.hat-open.com/gui.html#views>`_ in the
+   ``src_js/views`` directory
 #. Run the system from different subdirectories of the ``playground``
    directory.
     - This directory also contains configurations to various hat components
