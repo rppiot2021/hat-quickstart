@@ -1,12 +1,12 @@
 const path = require('path');
 
-module.exports = {
+module.exports = [['login', 'main'].map(name => ({
     mode: 'none',
-    entry: path.resolve(__dirname, 'src_js/views/main/main.js'),
+    entry: path.resolve(__dirname, `src_js/views/${name}/index.js`),
     output: {
         libraryTarget: 'commonjs',
         filename: 'index.js',
-        path: path.resolve(__dirname, 'build/views/main')
+        path: path.resolve(__dirname, `build/views/${name}`)
     },
     module: {
         rules: [
@@ -36,4 +36,4 @@ module.exports = {
     },
     devtool: 'eval-source-map',
     stats: 'errors-only'
-}
+}))]

@@ -33,10 +33,10 @@ views:
 address: http://0.0.0.0:23023
 initial_view: login
 users:
-  - name: user
+  - name: user1
     password:
-        hash: 9607d977ebab9f9d54054e49b40841ef1df106e1720e680c5ab252c84c7bcf59
-        salt: db2b4ec247be05b461e94a02487c73e9
+        hash: 0927f26c1e200037ef44e622d39d5b7c201690c85b9aa86545d6583ecff2b02f
+        salt: 7af08c40f25d800fa3d1ab3f8199adbd
     roles:
         - user
     view: main

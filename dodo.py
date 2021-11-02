@@ -55,4 +55,5 @@ def task_js_view():
             ['node_modules/.bin/webpack',
              '--config', str(root_dir / 'webpack.config.js'), *args])
 
-    return {'actions': [run], 'pos_arg': 'args'}
+    return {'actions': [run], 'pos_arg': 'args',
+            'task_dep': ['js_deps']}
