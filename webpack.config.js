@@ -1,6 +1,6 @@
 const path = require('path');
 
-module.exports = [['login', 'main'].map(name => ({
+module.exports = ['login', 'main'].map(name => ({
     mode: 'none',
     entry: path.resolve(__dirname, `src_js/views/${name}/index.js`),
     output: {
@@ -36,4 +36,4 @@ module.exports = [['login', 'main'].map(name => ({
     },
     devtool: 'eval-source-map',
     stats: 'errors-only'
-}))]
+}))
