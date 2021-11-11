@@ -53,7 +53,8 @@ def task_js_view():
                                      str(build_path / 'login'))
         subprocess.run(
             ['node_modules/.bin/webpack',
-             '--config', str(root_dir / 'webpack.config.js'), *args])
+             '--config', str(root_dir / 'webpack.config.js'), *args],
+            shell=True)
 
     return {'actions': [run], 'pos_arg': 'args',
             'task_dep': ['js_deps']}
