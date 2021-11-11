@@ -24,5 +24,5 @@ slave:
     parents: []
 type: monitor
 ui:
-    address: http://127.0.0.1:23022
+    address: http://0.0.0.0:23022
 ...

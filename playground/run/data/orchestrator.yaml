@@ -1,7 +1,7 @@
 ---
 type: orchestrator
 ui:
-    address: http://127.0.0.1:23021
+    address: http://0.0.0.0:23021
 components:
 -   args:
     - hat-monitor
