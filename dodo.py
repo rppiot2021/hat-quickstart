@@ -52,7 +52,7 @@ def task_js_view():
         distutils.dir_util.copy_tree(str(gui_path / 'views/login'),
                                      str(build_path / 'login'))
         subprocess.run(
-            ['node_modules/.bin/webpack',
+            [str(Path('node_modules/.bin/webpack')),
              '--config', str(root_dir / 'webpack.config.js'), *args],
             shell=True)
 
