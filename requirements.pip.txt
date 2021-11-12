@@ -11,5 +11,7 @@ hat-peg
 hat-sbs
 hat-sqlite3
 hat-util
+hat-syslog
+hat-manager
 
 doit
