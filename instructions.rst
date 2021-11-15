@@ -16,6 +16,9 @@ covered in the requirements, try either setting it up on your system (e.g.
 pacman can be installed on Windows via the MSYS2 stack), or find equivalent
 packages on the package manager you use.
 
+Note: on Ubuntu and other distributions that use apt, yarn must be installed
+using an alternate method, e.g. over npm or by adding a new apt repository.
+
 Docker
 ~~~~~~
 
