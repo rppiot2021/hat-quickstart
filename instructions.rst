@@ -19,6 +19,10 @@ packages on the package manager you use.
 Note: on Ubuntu and other distributions that use apt, yarn must be installed
 using an alternate method, e.g. over npm or by adding a new apt repository.
 
+After that, install the Python dependencies by calling::
+    
+    pip install -r requirements.pip.txt
+
 Docker
 ~~~~~~
 
